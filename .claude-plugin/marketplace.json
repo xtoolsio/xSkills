@@ -9,6 +9,11 @@
         "name": "azure-naming-convention",
         "description": "Azure resource naming convention based on Microsoft Cloud Adoption Framework (CAF). Covers 150+ resource types for Terraform, OpenTofu, Bicep, ARM templates, and Pulumi.",
         "path": "skills/azure-naming-convention"
+      },
+      {
+        "name": "terraform-naming-convention",
+        "description": "Terraform file naming convention based on Obay's Terraform Naming Convention (OTN). Enforces one block per file with standardized filename patterns for all Terraform/OpenTofu block types.",
+        "path": "skills/terraform-naming-convention"
       }
     ]
   }

@@ -6,7 +6,7 @@ Production-grade AI agent skills by [xTools](https://xtools.com). Compatible wit
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/xtoolsio/xSkills?style=social)](https://github.com/xtoolsio/xSkills/stargazers)
-![Skills](https://img.shields.io/badge/Skills-1-brightgreen)
+![Skills](https://img.shields.io/badge/Skills-2-brightgreen)
 ![Azure Resources](https://img.shields.io/badge/Azure_Resources-150%2B-0078D4)
 ![Agents](https://img.shields.io/badge/Agent-Claude_%7C_Cursor_%7C_Windsurf-blueviolet)
 ![IaC](https://img.shields.io/badge/IaC-Terraform_%7C_OpenTofu_%7C_Bicep_%7C_ARM_%7C_Pulumi-623CE4)
@@ -25,6 +25,7 @@ Install a specific skill globally:
 
 ```bash
 npx skills add xtoolsio/xSkills --skill azure-naming-convention -yg
+npx skills add xtoolsio/xSkills --skill terraform-naming-convention -yg
 ```
 
 Install all skills globally:
@@ -38,6 +39,7 @@ npx skills add xtoolsio/xSkills -yg
 | Skill | Description | Install | Version |
 |-------|-------------|---------|---------|
 | [azure-naming-convention](skills/azure-naming-convention/) | Azure resource naming convention based on Microsoft CAF. Covers 150+ resource types for Terraform, OpenTofu, Bicep, ARM, and Pulumi. | `--skill azure-naming-convention` | 0.1.0 |
+| [terraform-naming-convention](skills/terraform-naming-convention/) | Terraform file naming convention based on OTN. Enforces one block per file with standardized filename patterns. | `--skill terraform-naming-convention` | 0.1.0 |
 
 ## About
 

@@ -15,15 +15,29 @@ Production-grade AI agent skills by [xTools](https://xtools.com). Compatible wit
 
 ## Installation
 
+Browse available skills:
+
 ```bash
-npx skills add xtoolsio/xSkills
+npx skills add xtoolsio/xSkills --list
+```
+
+Install a specific skill globally:
+
+```bash
+npx skills add xtoolsio/xSkills --skill azure-naming-convention -yg
+```
+
+Install all skills globally:
+
+```bash
+npx skills add xtoolsio/xSkills -yg
 ```
 
 ## Available Skills
 
-| Skill | Description | Version |
-|-------|-------------|---------|
-| [azure-naming-convention](skills/azure-naming-convention/) | Azure resource naming convention based on Microsoft Cloud Adoption Framework (CAF). Covers 150+ resource types for Terraform, OpenTofu, Bicep, ARM templates, and Pulumi. | 0.1.0 |
+| Skill | Description | Install | Version |
+|-------|-------------|---------|---------|
+| [azure-naming-convention](skills/azure-naming-convention/) | Azure resource naming convention based on Microsoft CAF. Covers 150+ resource types for Terraform, OpenTofu, Bicep, ARM, and Pulumi. | `--skill azure-naming-convention` | 0.1.0 |
 
 ## About
 

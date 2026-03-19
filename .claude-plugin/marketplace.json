@@ -1,0 +1,15 @@
+{
+  "marketplace": {
+    "name": "xSkills by xTools",
+    "description": "Production-grade AI agent skills by xTools",
+    "author": "Ahmad Obay (obay@xtools.com)",
+    "version": "0.1.0",
+    "skills": [
+      {
+        "name": "azure-naming-convention",
+        "description": "Azure resource naming convention based on Microsoft Cloud Adoption Framework (CAF). Covers 150+ resource types for Terraform, OpenTofu, Bicep, ARM templates, and Pulumi.",
+        "path": "skills/azure-naming-convention"
+      }
+    ]
+  }
+}

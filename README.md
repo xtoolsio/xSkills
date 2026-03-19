@@ -1,4 +1,4 @@
-![xTools](assets/xtools-logo.svg)
+<img src="assets/xtools-logo.svg" alt="xTools" width="250">
 
 # xSkills
 
